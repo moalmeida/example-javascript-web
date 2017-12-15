@@ -1,0 +1,4 @@
+export const INCREMENTAL_COUNT = 'INCREMENTAL_COUNT';
+export const FETCH_TODO = 'FETCH_TODO';
+export const COUNT_TODO = 'COUNT_TODO';
+export const AUTHORIZATION = 'AUTHORIZATION';

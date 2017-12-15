@@ -1,0 +1,9 @@
+# node_modules
+package-lock.json
+www
+coverage
+Dockerfile
+Jenkinsfile
+README.md
+erase_data.sh
+startup.sh
