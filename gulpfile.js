@@ -32,7 +32,7 @@ gulp.task('test', () => {
 gulp.task('codacy', () =>
   gulp.src(['coverage/lcov.info'], { read: false })
     .pipe(codacy({
-      token: 'eaa023a763ca449eb03c596a47935cd8',
+      token: '2ff3e3dba9a14fb5a54b4ad83bdf3e6f',
     })));
 
 gulp.task('default', sequence(['lint', 'test'], 'codacy'));
