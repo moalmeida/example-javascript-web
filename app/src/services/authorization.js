@@ -1,8 +1,8 @@
-const localStorage = 'localStorage' in global;
 
 export default {
   authenticate: (token, cb) => {
     if (localStorage) {
+
       localStorage.setItem('_token', token);
     }
     cb();
@@ -22,7 +22,7 @@ export default {
   },
   getToken: () => {
     if (localStorage) {
-      return localStorage.getItem('token');
+      return localStorage.getItem('_token');
     }
     return null;
   },
