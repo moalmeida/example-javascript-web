@@ -33,8 +33,4 @@ BadgeIncremental.propTypes = {
   dispatch: PropTypes.func.isRequired,
 };
 
-// BadgeIncremental.defaultProps = {
-//   // incCount: 0,
-// };
-
 export default connect(mapStateToProps)(BadgeIncremental);

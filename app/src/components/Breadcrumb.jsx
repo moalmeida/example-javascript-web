@@ -6,7 +6,7 @@ const Breadcrumb = (props) => {
   let { items } = props;
   if (items && items.length > 0) {
     items = items.map(item => (
-      <B.Item href={item.url}>
+      <B.Item key={item.name} href={item.url}>
         {item.name}
       </B.Item>
     ));

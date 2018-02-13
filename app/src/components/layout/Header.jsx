@@ -2,8 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import './Header.scss';
-
 class Header extends React.PureComponent {
   render() {
     const { style, authenticated } = this.props;

@@ -1,7 +1,4 @@
-/* ---------------------------------------------- /*
- * Footer
-/* ---------------------------------------------- */
-#footer {
+.footer {
   background: #222;
   text-align: center;
   padding: 40px 0;
@@ -16,7 +13,7 @@
   border-bottom: 1px dotted #fff;
 }
 
-#footer span {
+.footer span {
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   color: #ff5252;

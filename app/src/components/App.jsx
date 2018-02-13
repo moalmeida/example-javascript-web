@@ -12,6 +12,9 @@ import 'animate.css/animate.min.css';
 import 'normalize.css/normalize.css';
 import 'aos/dist/aos.css';
 import './App.scss';
+import './layout/Footer.scss';
+import './layout/Header.scss';
+
 
 import Routes from '../components/Routes';
 

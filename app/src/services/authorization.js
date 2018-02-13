@@ -2,7 +2,6 @@
 export default {
   authenticate: (token, cb) => {
     if (localStorage) {
-
       localStorage.setItem('_token', token);
     }
     cb();
